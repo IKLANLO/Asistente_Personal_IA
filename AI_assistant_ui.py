@@ -103,6 +103,7 @@ col1, col2 = st.columns([4,1])
 with col1:
     pregunta_texto = st.text_input("Escribe tu pregunta aquí:")
 with col2:
+    st.markdown("<br>", unsafe_allow_html=True)
     grabar = st.button("🎤")
 
 # --- Lógica de envío ---
